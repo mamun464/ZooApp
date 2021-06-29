@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Zoo App</string>
+    <string name="validMail">Enter valid e-mail</string>
+    <string name="title_activity_recordings">recordings</string>
+    <string name="title_activity_calculations">Calculations</string>
+
+    <string-array name="vegies">
+        <item>Select...</item>
+        <item>Peas</item>
+        <item>BabyCorn</item>
+        <item>Grass</item>
+        <item>Cabbage</item>
+        <item>Banana</item>
+    </string-array>
+    <string-array name="meat">
+        <item>Select...</item>
+        <item>Beef</item>
+        <item>Chicken</item>
+        <item>Mutton</item>
+        <item>Fish</item>
+    </string-array>
+
+</resources>

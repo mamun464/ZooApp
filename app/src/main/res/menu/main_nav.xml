@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainHome"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/mainLoc"
+        android:title="Map"
+        android:icon="@drawable/location"/>
+    <item
+        android:id="@+id/Animals"
+        android:title="Animals"
+        android:icon="@drawable/animals"/>
+    <item
+        android:id="@+id/calculation"
+        android:title="Calculate"
+        android:icon="@drawable/calc"/>
+</menu>

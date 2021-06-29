@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp"
+    android:id="@+id/CardofAnimals2">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/tiger"
+        android:scaleType="centerCrop"
+        android:padding="10dp"
+        android:id="@+id/cardsB"/>
+</androidx.cardview.widget.CardView>

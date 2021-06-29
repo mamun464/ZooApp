@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnimalsDetails.DescAnimals">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/animalsBAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#013125"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="About Animals"
+        app:titleMarginStart="80dp"
+        app:titleTextColor="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:id="@+id/imageA"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:fontFamily="@font/babypanda"
+            android:textSize="35dp"
+            android:textColor="#013125"
+            android:layout_marginStart="10dp"
+            android:id="@+id/namesA"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Species"
+            android:textSize="18dp"
+            android:textColor="#013125"
+            android:layout_marginStart="10dp"
+            android:id="@+id/specA"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Life Span"
+            android:textSize="18dp"
+            android:textColor="#013125"
+            android:layout_marginStart="10dp"
+            android:id="@+id/spanA"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="18dp"
+            android:textColor="#013125"
+            android:layout_marginStart="10dp"
+            android:id="@+id/descA"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

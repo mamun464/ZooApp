@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+    </group>
+
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/drawer_profile"
+                    android:icon="@drawable/profile"
+                    android:title="User" />
+                <item
+                    android:id="@+id/drawer_users"
+                    android:icon="@drawable/users"
+                    android:title="Users" />
+                <item
+                    android:id="@+id/drawer_chat"
+                    android:icon="@drawable/chat"
+                    android:title="Chat" />
+                <item
+                    android:id="@+id/drawer_logout"
+                    android:icon="@drawable/logout"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Medical">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/drawer_doctors"
+                    android:icon="@drawable/medical"
+                    android:title="Doctors" />
+            </group>
+        </menu>
+    </item>
+</menu>
